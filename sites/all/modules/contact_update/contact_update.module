@@ -1,0 +1,12 @@
+<?php
+
+function contact_update_form_alter(&$form, &$form_state, $form_id) {
+    print_r($form_id);
+    if ($form_id == 'contact_site_form') {
+        $form['copy']['#access'] = 0;
+        $form['copy']['#value'] = 0;
+        $form['subject']['#access']= 0;
+        $form['subject']['#title']= "Feedback";
+        $form['subject']['#required']= 0;
+    }
+}

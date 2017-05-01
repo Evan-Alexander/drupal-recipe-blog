@@ -1,0 +1,5 @@
+name = Contact Update
+description = Removes the "Send yourself a copy" checkbox, as well as the subject line.
+core = 7.x
+package = Alter Modules
+files[] = contact_update.module
