@@ -1,0 +1,13 @@
+<?php
+
+function network_custom_follow_networks_alter(&$networks, $uid = 0) {
+    $networks[$uid]['github'] = array(
+        'title' => t('Github'),
+        'domain' => 'github.com',
+    );
+
+    $networks[$uid]['linkedin'] = array(
+        'title' => t('Linkedin'),
+        'domain' => 'linkedin.com',
+    );
+}

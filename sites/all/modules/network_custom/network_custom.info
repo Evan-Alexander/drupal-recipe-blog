@@ -1,0 +1,6 @@
+name = Network Custom Module
+description = Create custom follow icon and link
+package = Custom
+core = 7.x
+files[] = network_custom.module
+stylesheets[all][] = theStyle.css
