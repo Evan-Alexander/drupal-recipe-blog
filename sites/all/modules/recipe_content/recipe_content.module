@@ -1,0 +1,4 @@
+<?php
+  // function recipe_content_entity_view_alter(&$build, $type){
+  //   var_dump($build['field_ingredients']);
+  // }

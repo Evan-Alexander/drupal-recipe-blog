@@ -1,0 +1,5 @@
+name = Recipe Content
+description = Change Form of Recipe Content Type
+core = 7.x
+package = Custom
+files[] = recipe_content.module
